@@ -53,7 +53,7 @@ public class Almond extends Plant implements SpecialAttributes{
             rot();
             return 0;
         }
-        incrementProductionByDefault();
+        else incrementProductionByDefault();
         System.out.println("I'm " + this.name + " I've produced: " + production);
         return produceFood();
     }
